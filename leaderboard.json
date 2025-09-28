@@ -1,0 +1,805 @@
+{
+  "updated_at": "2025-09-28 14:05 UTC",
+  "runs": [
+    {
+      "run_id": "2025-09-28_plus01",
+      "model": "demo2",
+      "accuracy": 0.708,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.61,
+      "bias": 0.895,
+      "calibration": 0.71,
+      "trust_score": 0.7024,
+      "report": "data/reports/2025-09-28_plus01.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 18,
+            "score": 0.768
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 13,
+            "score": 0.678
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus02",
+      "model": "demo3",
+      "accuracy": 0.716,
+      "grounding": 0.592,
+      "safety": 0.95,
+      "robustness": 0.62,
+      "bias": 0.89,
+      "calibration": 0.72,
+      "trust_score": 0.7088,
+      "report": "data/reports/2025-09-28_plus02.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 26,
+            "score": 0.747
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 16,
+            "score": 0.754
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus03",
+      "model": "demo4",
+      "accuracy": 0.724,
+      "grounding": 0.598,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.885,
+      "calibration": 0.73,
+      "trust_score": 0.7152,
+      "report": "data/reports/2025-09-28_plus03.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 10,
+            "score": 0.891
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 6,
+            "score": 0.654
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus04",
+      "model": "demo5",
+      "accuracy": 0.732,
+      "grounding": 0.604,
+      "safety": 0.95,
+      "robustness": 0.64,
+      "bias": 0.88,
+      "calibration": 0.74,
+      "trust_score": 0.7216,
+      "report": "data/reports/2025-09-28_plus04.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 27,
+            "score": 0.904
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 11,
+            "score": 0.655
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus05",
+      "model": "demo6",
+      "accuracy": 0.74,
+      "grounding": 0.61,
+      "safety": 0.95,
+      "robustness": 0.65,
+      "bias": 0.875,
+      "calibration": 0.75,
+      "trust_score": 0.728,
+      "report": "data/reports/2025-09-28_plus05.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 26,
+            "score": 0.724
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 8,
+            "score": 0.718
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus06",
+      "model": "demo7",
+      "accuracy": 0.748,
+      "grounding": 0.616,
+      "safety": 0.95,
+      "robustness": 0.66,
+      "bias": 0.9,
+      "calibration": 0.76,
+      "trust_score": 0.7356,
+      "report": "data/reports/2025-09-28_plus06.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 12,
+            "score": 0.892
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 19,
+            "score": 0.742
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus07",
+      "model": "demo8",
+      "accuracy": 0.756,
+      "grounding": 0.622,
+      "safety": 0.95,
+      "robustness": 0.67,
+      "bias": 0.895,
+      "calibration": 0.7,
+      "trust_score": 0.7392,
+      "report": "data/reports/2025-09-28_plus07.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 15,
+            "score": 0.783
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 18,
+            "score": 0.581
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus08",
+      "model": "demo9",
+      "accuracy": 0.764,
+      "grounding": 0.628,
+      "safety": 0.95,
+      "robustness": 0.6,
+      "bias": 0.89,
+      "calibration": 0.71,
+      "trust_score": 0.74,
+      "report": "data/reports/2025-09-28_plus08.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 22,
+            "score": 0.824
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 6,
+            "score": 0.644
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus09",
+      "model": "demo1",
+      "accuracy": 0.772,
+      "grounding": 0.634,
+      "safety": 0.95,
+      "robustness": 0.61,
+      "bias": 0.885,
+      "calibration": 0.72,
+      "trust_score": 0.7464,
+      "report": "data/reports/2025-09-28_plus09.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 19,
+            "score": 0.866
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 7,
+            "score": 0.639
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus10",
+      "model": "demo2",
+      "accuracy": 0.78,
+      "grounding": 0.58,
+      "safety": 0.95,
+      "robustness": 0.62,
+      "bias": 0.88,
+      "calibration": 0.73,
+      "trust_score": 0.7378,
+      "report": "data/reports/2025-09-28_plus10.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 21,
+            "score": 0.75
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 10,
+            "score": 0.762
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus11",
+      "model": "demo3",
+      "accuracy": 0.788,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.875,
+      "calibration": 0.74,
+      "trust_score": 0.7442,
+      "report": "data/reports/2025-09-28_plus11.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 36,
+            "score": 0.846
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 9,
+            "score": 0.786
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus12",
+      "model": "demo4",
+      "accuracy": 0.796,
+      "grounding": 0.592,
+      "safety": 0.95,
+      "robustness": 0.64,
+      "bias": 0.9,
+      "calibration": 0.75,
+      "trust_score": 0.7518,
+      "report": "data/reports/2025-09-28_plus12.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 13,
+            "score": 0.824
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 9,
+            "score": 0.58
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus13",
+      "model": "demo5",
+      "accuracy": 0.804,
+      "grounding": 0.598,
+      "safety": 0.95,
+      "robustness": 0.65,
+      "bias": 0.895,
+      "calibration": 0.76,
+      "trust_score": 0.7582,
+      "report": "data/reports/2025-09-28_plus13.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 33,
+            "score": 0.865
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 13,
+            "score": 0.753
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus14",
+      "model": "demo6",
+      "accuracy": 0.812,
+      "grounding": 0.604,
+      "safety": 0.95,
+      "robustness": 0.66,
+      "bias": 0.89,
+      "calibration": 0.7,
+      "trust_score": 0.7618,
+      "report": "data/reports/2025-09-28_plus14.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 23,
+            "score": 0.751
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 7,
+            "score": 0.649
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus15",
+      "model": "demo7",
+      "accuracy": 0.82,
+      "grounding": 0.61,
+      "safety": 0.95,
+      "robustness": 0.67,
+      "bias": 0.885,
+      "calibration": 0.71,
+      "trust_score": 0.7682,
+      "report": "data/reports/2025-09-28_plus15.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 28,
+            "score": 0.82
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 19,
+            "score": 0.588
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus16",
+      "model": "demo8",
+      "accuracy": 0.828,
+      "grounding": 0.616,
+      "safety": 0.95,
+      "robustness": 0.6,
+      "bias": 0.88,
+      "calibration": 0.72,
+      "trust_score": 0.769,
+      "report": "data/reports/2025-09-28_plus16.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 10,
+            "score": 0.773
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 7,
+            "score": 0.699
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus17",
+      "model": "demo9",
+      "accuracy": 0.836,
+      "grounding": 0.622,
+      "safety": 0.95,
+      "robustness": 0.61,
+      "bias": 0.875,
+      "calibration": 0.73,
+      "trust_score": 0.7754,
+      "report": "data/reports/2025-09-28_plus17.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 30,
+            "score": 0.786
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 10,
+            "score": 0.616
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus18",
+      "model": "demo1",
+      "accuracy": 0.844,
+      "grounding": 0.628,
+      "safety": 0.95,
+      "robustness": 0.62,
+      "bias": 0.9,
+      "calibration": 0.74,
+      "trust_score": 0.783,
+      "report": "data/reports/2025-09-28_plus18.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 13,
+            "score": 0.78
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 15,
+            "score": 0.661
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus19",
+      "model": "demo2",
+      "accuracy": 0.852,
+      "grounding": 0.634,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.895,
+      "calibration": 0.75,
+      "trust_score": 0.7894,
+      "report": "data/reports/2025-09-28_plus19.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 13,
+            "score": 0.801
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 10,
+            "score": 0.759
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus20",
+      "model": "demo3",
+      "accuracy": 0.86,
+      "grounding": 0.58,
+      "safety": 0.95,
+      "robustness": 0.64,
+      "bias": 0.89,
+      "calibration": 0.76,
+      "trust_score": 0.7808,
+      "report": "data/reports/2025-09-28_plus20.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 29,
+            "score": 0.858
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 8,
+            "score": 0.61
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus21",
+      "model": "demo4",
+      "accuracy": 0.868,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.65,
+      "bias": 0.885,
+      "calibration": 0.7,
+      "trust_score": 0.7844,
+      "report": "data/reports/2025-09-28_plus21.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 30,
+            "score": 0.876
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 20,
+            "score": 0.793
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus22",
+      "model": "demo5",
+      "accuracy": 0.876,
+      "grounding": 0.592,
+      "safety": 0.95,
+      "robustness": 0.66,
+      "bias": 0.88,
+      "calibration": 0.71,
+      "trust_score": 0.7908,
+      "report": "data/reports/2025-09-28_plus22.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 26,
+            "score": 0.756
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 19,
+            "score": 0.606
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus23",
+      "model": "demo6",
+      "accuracy": 0.884,
+      "grounding": 0.598,
+      "safety": 0.95,
+      "robustness": 0.67,
+      "bias": 0.875,
+      "calibration": 0.72,
+      "trust_score": 0.7972,
+      "report": "data/reports/2025-09-28_plus23.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 19,
+            "score": 0.737
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 8,
+            "score": 0.594
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus24",
+      "model": "demo7",
+      "accuracy": 0.892,
+      "grounding": 0.604,
+      "safety": 0.95,
+      "robustness": 0.6,
+      "bias": 0.9,
+      "calibration": 0.73,
+      "trust_score": 0.7992,
+      "report": "data/reports/2025-09-28_plus24.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 19,
+            "score": 0.828
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 6,
+            "score": 0.7
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus25",
+      "model": "demo8",
+      "accuracy": 0.9,
+      "grounding": 0.61,
+      "safety": 0.95,
+      "robustness": 0.61,
+      "bias": 0.895,
+      "calibration": 0.74,
+      "trust_score": 0.8056,
+      "report": "data/reports/2025-09-28_plus25.html",
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 35,
+            "score": 0.866
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 15,
+            "score": 0.682
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    }
+  ]
+}

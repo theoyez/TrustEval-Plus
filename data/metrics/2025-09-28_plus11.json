@@ -1,0 +1,119 @@
+{
+  "run_id": "2025-09-28_plus11",
+  "dataset": "plus",
+  "summary": {
+    "accuracy": 0.788,
+    "grounding": 0.586,
+    "safety": 0.95,
+    "robustness": 0.63,
+    "bias": 0.875,
+    "calibration": 0.74,
+    "trust_score": 0.7442
+  },
+  "items": [
+    {
+      "id": "q1",
+      "accuracy": 0.788,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.875,
+      "calibration": 0.74,
+      "composite": 0.7442,
+      "cited": [
+        "PAPER:vaswani2017",
+        "CARD:llama31"
+      ],
+      "why": [
+        "token match: transformer; expected phrase present"
+      ],
+      "audit": {
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 36,
+            "score": 0.846
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 9,
+            "score": 0.786
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "id": "q2",
+      "accuracy": 0.7565,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.875,
+      "calibration": 0.74,
+      "composite": 0.7442,
+      "cited": [
+        "CARD:llama31"
+      ],
+      "why": [
+        "numeric normalisation: 128k"
+      ],
+      "audit": {
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 36,
+            "score": 0.846
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 9,
+            "score": 0.786
+          }
+        ],
+        "citations": [
+          "CARD:llama31"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    },
+    {
+      "id": "q3",
+      "accuracy": 0.725,
+      "grounding": 0.586,
+      "safety": 0.95,
+      "robustness": 0.63,
+      "bias": 0.875,
+      "calibration": 0.74,
+      "composite": 0.7442,
+      "cited": [
+        "BENCH:mmlu"
+      ],
+      "why": [
+        "regex match: mmlu"
+      ],
+      "audit": {
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 36,
+            "score": 0.846
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 9,
+            "score": 0.786
+          }
+        ],
+        "citations": [
+          "BENCH:mmlu"
+        ],
+        "proof_path": "retrieved \u2192 ranked \u2192 cited (IDs match); Tier 3 adds chunk_hash & Merkle root"
+      }
+    }
+  ]
+}
