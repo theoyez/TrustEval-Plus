@@ -1,0 +1,21 @@
+{
+  "run_id": "2025-09-28_plus07",
+  "summary": {
+    "accuracy": 0.742,
+    "grounding": 0.622,
+    "safety": 0.95,
+    "robustness": 0.67,
+    "bias": 0.872,
+    "calibration": 0.77,
+    "trust_score": 0.7341
+  },
+  "model": "model-1",
+  "meta": {
+    "model": "model-1",
+    "dataset": "plus@2.3.2",
+    "prompt_cfg": "icl-8shot",
+    "retriever": "hybrid-v3",
+    "date": "2025-09-28",
+    "prov": "warn"
+  }
+}
