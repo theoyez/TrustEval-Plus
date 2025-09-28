@@ -1,0 +1,385 @@
+{
+  "updated_at": "2025-09-28 19:41 UTC",
+  "runs": [
+    {
+      "run_id": "2025-09-28_plus01",
+      "model": "model-1",
+      "report": "data/reports/2025-09-28_plus01.html",
+      "meta": {
+        "model": "demo1",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.455,
+      "grounding": 0.7241,
+      "safety": 1.0,
+      "robustness": 0.59,
+      "bias": 0.8245,
+      "calibration": 0.7513,
+      "trust_score": 0.5902,
+      "audit": {
+        "status": "warn",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 12,
+            "score": 0.788
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 27,
+            "score": 0.614
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus02",
+      "model": "model-2",
+      "report": "data/reports/2025-09-28_plus02.html",
+      "meta": {
+        "model": "demo2",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.6841,
+      "grounding": 0.6809,
+      "safety": 1.0,
+      "robustness": 0.5721,
+      "bias": 0.8624,
+      "calibration": 0.7304,
+      "trust_score": 0.7147,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 20,
+            "score": 0.663
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 14,
+            "score": 0.722
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus03",
+      "model": "model-3",
+      "report": "data/reports/2025-09-28_plus03.html",
+      "meta": {
+        "model": "demo3",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.7481,
+      "grounding": 0.3731,
+      "safety": 1.0,
+      "robustness": 0.7425,
+      "bias": 0.8509,
+      "calibration": 0.7396,
+      "trust_score": 0.6608,
+      "audit": {
+        "status": "warn",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 13,
+            "score": 0.759
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 21,
+            "score": 0.716
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus04",
+      "model": "model-4",
+      "report": "data/reports/2025-09-28_plus04.html",
+      "meta": {
+        "model": "demo4",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.4595,
+      "grounding": 0.5577,
+      "safety": 1.0,
+      "robustness": 0.742,
+      "bias": 0.8881,
+      "calibration": 0.7209,
+      "trust_score": 0.543,
+      "audit": {
+        "status": "warn",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 26,
+            "score": 0.702
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 12,
+            "score": 0.774
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus05",
+      "model": "model-5",
+      "report": "data/reports/2025-09-28_plus05.html",
+      "meta": {
+        "model": "demo5",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.6136,
+      "grounding": 0.4859,
+      "safety": 1.0,
+      "robustness": 0.7305,
+      "bias": 0.822,
+      "calibration": 0.7212,
+      "trust_score": 0.6139,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 23,
+            "score": 0.765
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 10,
+            "score": 0.57
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus06",
+      "model": "model-6",
+      "report": "data/reports/2025-09-28_plus06.html",
+      "meta": {
+        "model": "demo6",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.5164,
+      "grounding": 0.4363,
+      "safety": 1.0,
+      "robustness": 0.6239,
+      "bias": 0.872,
+      "calibration": 0.745,
+      "trust_score": 0.5407,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 11,
+            "score": 0.795
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 17,
+            "score": 0.58
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus07",
+      "model": "model-7",
+      "report": "data/reports/2025-09-28_plus07.html",
+      "meta": {
+        "model": "demo7",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.5811,
+      "grounding": 0.4342,
+      "safety": 1.0,
+      "robustness": 0.5662,
+      "bias": 0.8164,
+      "calibration": 0.7327,
+      "trust_score": 0.5789,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 17,
+            "score": 0.69
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 21,
+            "score": 0.72
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus08",
+      "model": "model-1",
+      "report": "data/reports/2025-09-28_plus08.html",
+      "meta": {
+        "model": "demo1",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.693,
+      "grounding": 0.6152,
+      "safety": 1.0,
+      "robustness": 0.6297,
+      "bias": 0.8693,
+      "calibration": 0.7175,
+      "trust_score": 0.7004,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 24,
+            "score": 0.807
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 37,
+            "score": 0.611
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus09",
+      "model": "model-2",
+      "report": "data/reports/2025-09-28_plus09.html",
+      "meta": {
+        "model": "demo2",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.5593,
+      "grounding": 0.3262,
+      "safety": 1.0,
+      "robustness": 0.7259,
+      "bias": 0.8356,
+      "calibration": 0.7667,
+      "trust_score": 0.5334,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 17,
+            "score": 0.681
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 14,
+            "score": 0.636
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    },
+    {
+      "run_id": "2025-09-28_plus10",
+      "model": "model-3",
+      "report": "data/reports/2025-09-28_plus10.html",
+      "meta": {
+        "model": "demo3",
+        "dataset": "plus@1.1.0",
+        "prompt_cfg": "icl-8shot",
+        "retriever": "hybrid-v3",
+        "date": "2025-09-28"
+      },
+      "accuracy": 0.7584,
+      "grounding": 0.509,
+      "safety": 1.0,
+      "robustness": 0.7138,
+      "bias": 0.879,
+      "calibration": 0.7589,
+      "trust_score": 0.7077,
+      "audit": {
+        "status": "ok",
+        "trail": [
+          {
+            "doc": "PAPER:vaswani2017",
+            "chunk": 28,
+            "score": 0.649
+          },
+          {
+            "doc": "CARD:llama31",
+            "chunk": 13,
+            "score": 0.749
+          }
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      }
+    }
+  ]
+}
