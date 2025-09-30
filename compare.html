@@ -1,0 +1,18 @@
+
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Compare runs</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><a class="btn" href="index.html">← Leaderboard</a><div class="hdr"><h1>Compare runs</h1></div></header>
+<main>
+  <div class="toolbar">
+    <select id="leftSel" class="btn"></select>
+    <select id="rightSel" class="btn"></select>
+    <button id="openReports" class="btn">Open reports</button>
+  </div>
+  <table>
+    <thead><tr><th>Metric</th><th id="lcol">Left</th><th id="rcol">Right</th><th>Δ (right−left)</th></tr></thead>
+    <tbody id="compareBody"></tbody>
+  </table>
+</main>
+<script src="main.js"></script>
+</body></html>

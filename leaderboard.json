@@ -1,0 +1,335 @@
+{
+  "version": "v3",
+  "metrics": [
+    "accuracy",
+    "grounding",
+    "safety",
+    "robustness",
+    "bias",
+    "calibration",
+    "trust"
+  ],
+  "with_provenance": true,
+  "runs": [
+    {
+      "run_id": "2025-09-30_provenance01",
+      "model": "demo1",
+      "report": "data/reports/2025-09-30_provenance01.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 6 \u00b7 score 0.71",
+          "CARD:llama31 \u00b7 chunk 11 \u00b7 score 0.66"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.45,
+      "grounding": 0.45,
+      "safety": 0.45,
+      "robustness": 0.45,
+      "bias": 0.45,
+      "calibration": 0.45,
+      "trust": 0.45,
+      "provenance_status": "ok",
+      "proof_root": "00000000000000000000000000000000000000000000000001b69b4bacd05f15",
+      "proof_url": "data/proofs/2025-09-30_provenance01.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance02",
+      "model": "demo2",
+      "report": "data/reports/2025-09-30_provenance02.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 7 \u00b7 score 0.72",
+          "CARD:llama31 \u00b7 chunk 12 \u00b7 score 0.67"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.5,
+      "grounding": 0.5,
+      "safety": 0.5,
+      "robustness": 0.5,
+      "bias": 0.5,
+      "calibration": 0.5,
+      "trust": 0.5,
+      "provenance_status": "ok",
+      "proof_root": "000000000000000000000000000000000000000000000000036d369759a0be2a",
+      "proof_url": "data/proofs/2025-09-30_provenance02.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance03",
+      "model": "demo3",
+      "report": "data/reports/2025-09-30_provenance03.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 8 \u00b7 score 0.73",
+          "CARD:llama31 \u00b7 chunk 13 \u00b7 score 0.68"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.55,
+      "grounding": 0.55,
+      "safety": 0.55,
+      "robustness": 0.55,
+      "bias": 0.55,
+      "calibration": 0.55,
+      "trust": 0.55,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000523d1e306711d3f",
+      "proof_url": "data/proofs/2025-09-30_provenance03.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance04",
+      "model": "demo4",
+      "report": "data/reports/2025-09-30_provenance04.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 9 \u00b7 score 0.74",
+          "CARD:llama31 \u00b7 chunk 14 \u00b7 score 0.69"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.6,
+      "grounding": 0.6,
+      "safety": 0.6,
+      "robustness": 0.6,
+      "bias": 0.6,
+      "calibration": 0.6,
+      "trust": 0.6,
+      "provenance_status": "ok",
+      "proof_root": "00000000000000000000000000000000000000000000000006da6d2eb3417c54",
+      "proof_url": "data/proofs/2025-09-30_provenance04.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance05",
+      "model": "demo5",
+      "report": "data/reports/2025-09-30_provenance05.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 10 \u00b7 score 0.75",
+          "CARD:llama31 \u00b7 chunk 15 \u00b7 score 0.70"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.65,
+      "grounding": 0.65,
+      "safety": 0.65,
+      "robustness": 0.65,
+      "bias": 0.65,
+      "calibration": 0.65,
+      "trust": 0.65,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000891087a6011db69",
+      "proof_url": "data/proofs/2025-09-30_provenance05.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance06",
+      "model": "demo6",
+      "report": "data/reports/2025-09-30_provenance06.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 11 \u00b7 score 0.76",
+          "CARD:llama31 \u00b7 chunk 16 \u00b7 score 0.71"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.7,
+      "grounding": 0.7,
+      "safety": 0.7,
+      "robustness": 0.7,
+      "bias": 0.7,
+      "calibration": 0.7,
+      "trust": 0.7,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000a47a3c60ce23a7e",
+      "proof_url": "data/proofs/2025-09-30_provenance06.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance07",
+      "model": "demo7",
+      "report": "data/reports/2025-09-30_provenance07.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 12 \u00b7 score 0.77",
+          "CARD:llama31 \u00b7 chunk 17 \u00b7 score 0.72"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.75,
+      "grounding": 0.75,
+      "safety": 0.75,
+      "robustness": 0.75,
+      "bias": 0.75,
+      "calibration": 0.75,
+      "trust": 0.75,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000bfe3f11b9b29993",
+      "proof_url": "data/proofs/2025-09-30_provenance07.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance08",
+      "model": "demo8",
+      "report": "data/reports/2025-09-30_provenance08.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 13 \u00b7 score 0.78",
+          "CARD:llama31 \u00b7 chunk 18 \u00b7 score 0.73"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.8,
+      "grounding": 0.8,
+      "safety": 0.8,
+      "robustness": 0.8,
+      "bias": 0.8,
+      "calibration": 0.8,
+      "trust": 0.8,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000db4da5d6682f8a8",
+      "proof_url": "data/proofs/2025-09-30_provenance08.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance09",
+      "model": "demo9",
+      "report": "data/reports/2025-09-30_provenance09.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 14 \u00b7 score 0.79",
+          "CARD:llama31 \u00b7 chunk 19 \u00b7 score 0.74"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.85,
+      "grounding": 0.85,
+      "safety": 0.85,
+      "robustness": 0.85,
+      "bias": 0.85,
+      "calibration": 0.85,
+      "trust": 0.85,
+      "provenance_status": "ok",
+      "proof_root": "0000000000000000000000000000000000000000000000000f6b75a9135357bd",
+      "proof_url": "data/proofs/2025-09-30_provenance09.json"
+    },
+    {
+      "run_id": "2025-09-30_provenance10",
+      "model": "demo10",
+      "report": "data/reports/2025-09-30_provenance10.html",
+      "audit": {
+        "candidates": [
+          "PAPER:vaswani2017 \u00b7 chunk 15 \u00b7 score 0.80",
+          "CARD:llama31 \u00b7 chunk 20 \u00b7 score 0.75"
+        ],
+        "citations": [
+          "PAPER:vaswani2017",
+          "CARD:llama31"
+        ]
+      },
+      "audit_status": "ok",
+      "meta": {
+        "dataset": "theoyez-demo",
+        "retriever": "hybrid-v3",
+        "prompt_cfg": "icl-8shot",
+        "date": "2025-09-30"
+      },
+      "accuracy": 0.9,
+      "grounding": 0.9,
+      "safety": 0.9,
+      "robustness": 0.9,
+      "bias": 0.9,
+      "calibration": 0.9,
+      "trust": 0.9,
+      "provenance_status": "ok",
+      "proof_root": "000000000000000000000000000000000000000000000000112210f4c023b6d2",
+      "proof_url": "data/proofs/2025-09-30_provenance10.json"
+    }
+  ]
+}
