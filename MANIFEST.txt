@@ -1,1 +1,0 @@
-FILES: index.html, compare.html, README.html, styles.css, main.js, leaderboard.json, data/reports/*, data/proofs/*
